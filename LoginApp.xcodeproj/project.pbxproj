@@ -7,23 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		740EC7AE28C91E0000F1EE01 /* ResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740EC7AD28C91E0000F1EE01 /* ResultModel.swift */; };
+		74933D1D29521B9D00B98315 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 74933D1C29521B9D00B98315 /* IQKeyboardManagerSwift */; };
 		74DB6A2A28C616F20031EBAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DB6A2928C616F20031EBAF /* AppDelegate.swift */; };
 		74DB6A2C28C616F20031EBAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DB6A2B28C616F20031EBAF /* SceneDelegate.swift */; };
-		74DB6A2E28C616F20031EBAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DB6A2D28C616F20031EBAF /* ViewController.swift */; };
+		74DB6A2E28C616F20031EBAF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DB6A2D28C616F20031EBAF /* LoginViewController.swift */; };
 		74DB6A3128C616F20031EBAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74DB6A2F28C616F20031EBAF /* Main.storyboard */; };
 		74DB6A3328C616F30031EBAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74DB6A3228C616F30031EBAF /* Assets.xcassets */; };
 		74DB6A3628C616F30031EBAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74DB6A3428C616F30031EBAF /* LaunchScreen.storyboard */; };
+		74DB6A4028C61A990031EBAF /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DB6A3F28C61A990031EBAF /* ResultViewController.swift */; };
+		74DB6A4428C61E4D0031EBAF /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DB6A4328C61E4D0031EBAF /* LoginModel.swift */; };
+		74DB6A4628C61F3F0031EBAF /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DB6A4528C61F3F0031EBAF /* LoginManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		740EC7AD28C91E0000F1EE01 /* ResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultModel.swift; sourceTree = "<group>"; };
 		74DB6A2628C616F20031EBAF /* LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74DB6A2928C616F20031EBAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74DB6A2B28C616F20031EBAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		74DB6A2D28C616F20031EBAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74DB6A2D28C616F20031EBAF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		74DB6A3028C616F20031EBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74DB6A3228C616F30031EBAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74DB6A3528C616F30031EBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74DB6A3728C616F30031EBAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74DB6A3F28C61A990031EBAF /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		74DB6A4328C61E4D0031EBAF /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		74DB6A4528C61F3F0031EBAF /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74933D1D29521B9D00B98315 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +68,49 @@
 			children = (
 				74DB6A2928C616F20031EBAF /* AppDelegate.swift */,
 				74DB6A2B28C616F20031EBAF /* SceneDelegate.swift */,
-				74DB6A2D28C616F20031EBAF /* ViewController.swift */,
-				74DB6A2F28C616F20031EBAF /* Main.storyboard */,
-				74DB6A3228C616F30031EBAF /* Assets.xcassets */,
-				74DB6A3428C616F30031EBAF /* LaunchScreen.storyboard */,
+				74DB6A4228C61E3A0031EBAF /* Model */,
+				74DB6A3E28C6173C0031EBAF /* Controller */,
+				74DB6A3D28C617350031EBAF /* View */,
+				74DB6A4128C61DC60031EBAF /* Support files */,
 				74DB6A3728C616F30031EBAF /* Info.plist */,
 			);
 			path = LoginApp;
+			sourceTree = "<group>";
+		};
+		74DB6A3D28C617350031EBAF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74DB6A2F28C616F20031EBAF /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		74DB6A3E28C6173C0031EBAF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				74DB6A2D28C616F20031EBAF /* LoginViewController.swift */,
+				74DB6A3F28C61A990031EBAF /* ResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		74DB6A4128C61DC60031EBAF /* Support files */ = {
+			isa = PBXGroup;
+			children = (
+				74DB6A3228C616F30031EBAF /* Assets.xcassets */,
+				74DB6A3428C616F30031EBAF /* LaunchScreen.storyboard */,
+			);
+			path = "Support files";
+			sourceTree = "<group>";
+		};
+		74DB6A4228C61E3A0031EBAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				74DB6A4328C61E4D0031EBAF /* LoginModel.swift */,
+				74DB6A4528C61F3F0031EBAF /* LoginManager.swift */,
+				740EC7AD28C91E0000F1EE01 /* ResultModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +129,9 @@
 			dependencies = (
 			);
 			name = LoginApp;
+			packageProductDependencies = (
+				74933D1C29521B9D00B98315 /* IQKeyboardManagerSwift */,
+			);
 			productName = LoginApp;
 			productReference = 74DB6A2628C616F20031EBAF /* LoginApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +160,9 @@
 				Base,
 			);
 			mainGroup = 74DB6A1D28C616F20031EBAF;
+			packageReferences = (
+				74933D1B29521B9D00B98315 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 74DB6A2728C616F20031EBAF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74DB6A2E28C616F20031EBAF /* ViewController.swift in Sources */,
+				74DB6A4428C61E4D0031EBAF /* LoginModel.swift in Sources */,
+				74DB6A2E28C616F20031EBAF /* LoginViewController.swift in Sources */,
 				74DB6A2A28C616F20031EBAF /* AppDelegate.swift in Sources */,
 				74DB6A2C28C616F20031EBAF /* SceneDelegate.swift in Sources */,
+				74DB6A4028C61A990031EBAF /* ResultViewController.swift in Sources */,
+				740EC7AE28C91E0000F1EE01 /* ResultModel.swift in Sources */,
+				74DB6A4628C61F3F0031EBAF /* LoginManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +414,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		74933D1B29521B9D00B98315 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		74933D1C29521B9D00B98315 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74933D1B29521B9D00B98315 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 74DB6A1E28C616F20031EBAF /* Project object */;
 }
